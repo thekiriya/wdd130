@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Roboto', 'Open Sans', 'Lora', serif;
+  }
+  
+  .home-title, .msg h2 {
+    font-family: 'Roboto Slab', 'Open Sans', 'Lora', serif;
+  }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -109,3 +120,21 @@ footer a:hover {
         text-decoration: underline;
     }
     
+    body {
+        font-family: 'Roboto', 'Open Sans', 'Lora', sans-serif;
+        font-size: 22px;  
+      }
+      
+   
+      .home-title {
+        font-family: 'Roboto Slab', 'Open Sans', 'Lora', serif;
+        font-size: 2em;  /* 2 times the default font-size */
+      }
+      
+      /* Font-size for .book and .join */
+.book, .join {
+    font-size: 18px;  /* Specific size for .book and .join */
+  }
+
+  .msg p 
+    font-size: .8em; 
