@@ -7,8 +7,21 @@ body {
   
   .home-title, .msg h2 {
     font-family: 'Roboto Slab', 'Open Sans', 'Lora', serif;
-  }
+      }
 
+      body {
+        background-color: #fcfbfb;
+        font-family: 'Roboto Slab', 'Open Sans', 'Lora', serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 0px;
+    }
+      
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -16,7 +29,10 @@ body {
 
 nav a {
     text-align: center;
+    padding: 10px;
   }
+
+
   
   #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -32,7 +48,7 @@ nav a {
 
 
   #background {
-    height: 725px;
+    height: 100px;
 }
 
 body {
@@ -74,8 +90,14 @@ h4 {
 }
 
 .msg p {
-    color: #2a4cf9; /* Soft lavender-blue */
+    color: #0e1745; /* Soft lavender-blue */
 }
+
+.msg {
+    background-color: #7f8b5e;
+    line-height: 1.5em;
+    margin-top: 300px; 
+  }
 
 footer {
     color: #ffffff; /* Cool gray */
@@ -100,16 +122,21 @@ footer a:hover {
 #hero-img {
     width: 100%}
 
+nav { text-align: center;
 
+}
 
     nav a {
         text-align: center;
         color: #fcfbfb;
         text-decoration: none;
+    
     }
     
     .book, .join {
         text-decoration: none;
+        border-radius: 5px; 
+
     }
     
     footer a {
@@ -123,12 +150,15 @@ footer a:hover {
     body {
         font-family: 'Roboto', 'Open Sans', 'Lora', sans-serif;
         font-size: 22px;  
+        
       }
       
    
       .home-title {
         font-family: 'Roboto Slab', 'Open Sans', 'Lora', serif;
         font-size: 2em;  /* 2 times the default font-size */
+        text-align: center; 
+        margin-top: 50px; 
       }
       
       /* Font-size for .book and .join */
@@ -136,5 +166,12 @@ footer a:hover {
     font-size: 18px;  /* Specific size for .book and .join */
   }
 
-  .msg p 
-    font-size: .8em; 
+  .card-img {
+border: 10px solid #112800; 
+
+  }
+
+  main section img {
+    box-sizing: border-box;
+}
+      
