@@ -186,6 +186,7 @@ width: calc (100px- 110px);
 height: 260px; 
 background-color: gold; 
 padding: left 100px; 
+padding-bottom: 20px;
 
 
 } 
