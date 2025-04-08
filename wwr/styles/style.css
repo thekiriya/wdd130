@@ -58,7 +58,7 @@ header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(148, 170, 147);
 }
 
 nav a {
@@ -295,6 +295,65 @@ align-items: center;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.riversgrid section {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+/* HEADER SECTION */
+
+#riversheader {
+  display: grid;
+  grid-template-columns: 150px auto; /* logo + nav */
+  align-items: center; /* vertically centers content in each cell */
+  padding: 10px 20px;
+}
+
+.riverlogo {
+  width: 100px; /* resize the logo */
+  height: auto;
+}
+
+#riversnav {
+  display: flex;
+  flex-direction: column; /* stack links vertically */
+  gap: 10px;
+  padding-top: 10px; /* shifts links downward */
+}
+/* END */ 
+
+  
+  /* Grid placement for individual sections */
+  .salmon {
+    grid-column: 2 / 6;
+    grid-row: 1 / 3;
+   
+  }
+  
+  .grandcanyon {
+    grid-column: 6 / 10;
+    grid-row: 1 / 3;
+    
+  }
+  
+  .desolation {
+    grid-column: 2 / 11;
+    grid-row: 3 / 5;
+    margin-right: 140px;
+    
+    
+  }
+
+  .salmon, .grandcanyon {
+
+    margin-top: 40px; 
+  }
+  
+/* DO NOT PUT ANY CODE PAST THIS */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -338,5 +397,3 @@ align-items: center;
     footer {
         margin-top: 25px;
     }
-}
-            
