@@ -3,13 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+</head>
 </head>
 
 <body>
    
     <main>
     
+
+  
+        <style>
+
+
+        /* General Reset and Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Emilys Candy';
+  background-color: #f5f2f5;
+  color: #472d00;
+  line-height: 1.7;
+}
+
+.h1, .h2{
+  font-family: 'Tinos' !important;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Logo Styling */
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  font-size: 2rem;
+  font: 'Emilys Candy';
+  font-weight: 600;
+  color: #8bba8d
+  margin-bottom: 20px;
+ 
+}
+
+/* Navigation Bar */
+nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #472d00;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffa2f3;
+  color: #73536b;
+}
+
+.h2{
+
+  color: rgb(41, 27, 10); 
+}
+/* Headings */
+h1 {
+  font-size: 1.8rem;
+  color: #855e61;
+  border-bottom: 2px solid #ffe1f3;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  font: 'Emilys Candy' !important;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #ffe1f3;
+  font-style: italic;
+  margin-bottom: 10px;
+  font: 'Emilys Candy' !important;
+}
+
+/* Paragraph Styling */
+p {
+  background-color: #8bba8d;
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(160, 95, 103, 0.1);
+  font: 'Tinos';
+}
+
+.bloom-phrase {
+  color: #cd5591; /* soft pink, feel free to swap it for anything dreamy */
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #fff5f8;
+}
+
+
+/* Section Images */
+img.coffee,
+img.hiking,
+img.weeklyenvironment {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Blank Spacer Divs */
+.blank {
+  height: 40px;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 50px;
+  padding: 20px 10px;
+  background-color: #8bba8d;
+  text-align: center;
+  border-top: 2px dashed #ffe1f3;
+}
+
+footer nav a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #6d4e53;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer .social-icons img {
+  width: 30px;
+  margin: 10px 5px;
+  transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+        </style>
+
+
+
+
+
     </head>
     <body>
       <div class="container">
@@ -30,7 +195,10 @@
         </nav>
     
         <div class="weeklycontent">
-            <h2> Helping you bloom, one week at a time. </h2>
+    
+
+          <h2><span class="bloom-phrase">Helping you bloom, one week at a time.</span></h2>
+
           <p>
             The Weekly page breaks down self-care routines one can practice every week into three essential categories, 
             that is, body, mind, and environment. Simple physical self-care: like setting a hydration goal, trying a new 
@@ -45,6 +213,8 @@
           </p>
 
           <img class="coffee" src="images/girl_at_coffee_shop.jpg" alt="coffee">
+
+   
 <h1>Self Care: Mind</h1>
           
             <p>🕯️ Journal your thoughts, feelings, or daily reflections</p>
