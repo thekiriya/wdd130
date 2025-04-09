@@ -3,28 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
 </head>
+
 
 <body>
    
     <main>
-    
+<style>
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Emilys Candy", "Tinos";
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe1f3;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(236, 183, 96, 0.1);
+}
+
+header h1 {
+  font-size: 5rem;
+  color: #472d00;
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #472d00;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffc8e4;
+  color: white;
+}
+
+/* Weekly Content Section */
+.weeklycontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.weeklycontent img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weeklycontent p {
+  text-align: center;
+  font-size: 1rem;
+  max-width: 800px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+/* Monthly Content Section */
+.monthlycontent {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.monthlycontent img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.monthlycontent p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #070101;
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+img.footerlogo{
+    grid-template-columns: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #ffe1f3;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+footer .social-icons a img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+footer .social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+
+</style>
+        
+
     </head>
     <body>
       <div class="container">
-        <img class="logo" src="images/lotus_logo.PNG" alt="logo">
         <header>
-          Self Care Bloom
-
+            <img class="logo" src="images/lotus_logo.PNG" alt="logo">
+          
+          <h3>  Self Care Bloom </h3>
+      
           <nav>
 
             <a href="weekly.html">Weekly</a>
             <a href="monthly.html">Monthly</a>
             <a href="contactus.html">Contact Us</a>
         </nav>  
-
-        </header>
+    </header>
+   
     
     
         </nav>
@@ -63,15 +214,15 @@
         </div>
 
         <p>
-        It is important to have an idea on what you're looking to improve. Please remember that the journey to self care can easily
-        become overwhelming if you're trying to do too much at once. Remember that part of caring for yourself is to take it on
-        step at a time. It is also important to remember that consistency will always beat intensity, so make sure the routine you
+    It is important to have an idea on what you're looking to improve. Please remember that the journey to self care can easily
+     become overwhelming if you're trying to do too much at once. Remember that part of caring for yourself is to take it on
+    step at a time. It is also important to remember that consistency will always beat intensity, so make sure the routine you
     decide to build for yourself is one that's sustainable and enjoyable because it should always feel good to take care of 
     yourself. Important! Self care is not a substitute for professional help. Reach out if you're struggling. Thank you. 
     </p>
     </main> 
         <footer>
-            <img class="logo" src="images/lotus_logo.PNG" alt="logo">
+            <img class="footerlogo" src="images/lotus_logo.PNG" alt="footerlogo">
            <nav>
 
             <a href="weekly.html">Weekly</a>
