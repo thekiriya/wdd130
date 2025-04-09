@@ -158,6 +158,48 @@ footer .social-icons a img:hover {
   transform: scale(1.2);
 }
 
+/* FADE OVERLAY EFFECT */ 
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e3a9d64a;
+}
+
+.container:hover .overlay {
+  opacity: 7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 </style>
         
@@ -168,6 +210,10 @@ footer .social-icons a img:hover {
         <header>
             <img class="logo" src="images/lotus_logo.PNG" alt="logo">
           
+            <div class="logo">
+              <div class="overlay">
+                <div class="text">Welcome!</div>
+
           <h3>  Self Care Bloom </h3>
       
           <nav>
@@ -184,6 +230,7 @@ footer .social-icons a img:hover {
     
         <div class="weeklycontent">
           <img class="food" src="images/healthy_food.jpg" alt="food">
+
           <p>
             The site genuinely aims to equip people for meaningful self-betterment, inclusive of mind, body, and environment. 
             Some might be wondering, “How do I feel more energized?” and “What habits are good for clearing up my skin?” or even
